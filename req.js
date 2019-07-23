@@ -4,6 +4,12 @@ const {
 
 const baseURL = 'api.pay.busha.co'
 
+/**
+ * @description helps make http request easier for this lib
+ * @param {string} method http method
+ * @param {string} path request path
+ * @param {Object} body request body
+ */
 async function call(method, path, body = {}) {
     const key = this.key
     const option = {
@@ -51,6 +57,7 @@ async function call(method, path, body = {}) {
         })
     })
 }
+
 
 module.exports = (key) => {
     return {
