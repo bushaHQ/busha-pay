@@ -36,7 +36,7 @@ async function call(method, path, body = {}) {
                         x(resBody.error)
                         return
                     }
-                    r(resBody)
+                    r(resBody.data)
                 } catch (e) {
                     x(e)
                 }
