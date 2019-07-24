@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run: npm i
-      - run: PAY_TEST_KEY=${PAY_TEST_KEY} mocha
+      - run: PAY_TEST_KEY=${PAY_TEST_KEY} ./node_modules/.bin/mocha
