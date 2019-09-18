@@ -2,7 +2,7 @@
 
 # Introduction
 
-`pay-go` is a golang API wrapper for `busha pay` service. check docs here [https://docs.api.pay.busha.co](https://docs.api.pay.busha.co)
+`busha-pay` is a Nodejs API wrapper for `busha pay` service. check docs here [https://docs.api.pay.busha.co](https://docs.api.pay.busha.co)
 
 ```go
 const pay = require("") // TODO pass correct value
