@@ -5,6 +5,8 @@
 `@bushaHQ/busha-pay` is an API client for `busha pay` service. Check the docs here [https://docs.api.pay.busha.co](https://docs.api.pay.busha.co).
 Busha Pay allows businesses collect cryptocurrencies such as Bitcoin, Ethereum etc. as payment from customers around the world.
 
+[![npm version](https://badge.fury.io/js/%40busha%2Fbusha-pay.svg)](https://badge.fury.io/js/%40busha%2Fbusha-pay)
+
 ## Usage
 
 ```js
