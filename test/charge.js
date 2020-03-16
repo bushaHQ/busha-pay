@@ -3,8 +3,7 @@ const pay = require("../index");
 const dotenv = require("dotenv");
 dotenv.config();
 
-const { PAY_TEST_KEY } = process.env;
-const obj = pay.newClient(PAY_TEST_KEY);
+const obj = pay.newClient(process.env.PAY_TEST_KEY);
 let chargeID;
 
 obj.request.baseURL = "api.staging.pay.busha.co";
