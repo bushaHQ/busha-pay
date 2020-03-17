@@ -2,8 +2,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image:  circleci/node:latest
+      - image: circleci/node:latest
     steps:
       - checkout
       - run: npm i
+      - run: npm run build
       - run: PAY_TEST_KEY=${PAY_TEST_KEY} ./node_modules/.bin/mocha

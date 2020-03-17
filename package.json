@@ -1,17 +1,27 @@
 {
   "name": "@busha/busha-pay",
   "version": "1.0.0",
-  "description": "# Introduction",
-  "main": "index.js",
+  "description": "Busha Pay allows businesses collect cryptocurrencies such as Bitcoin, Ethereum etc. as payment from customers around the world.",
+  "main": "dist/busha-pay.js",
+  "source": "src/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "prebuild": "rimraf dist",
+    "build": "microbundle src/*.js -o dist/  --format cjs --target node --compress true"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bushaHQ/busha-pay.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "fintech",
+    "crypto",
+    "busha",
+    "payment",
+    "bitcoin",
+    "ethereum"
+  ],
+  "author": "BuhsaHQ",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bushaHQ/busha-pay/issues"
@@ -20,7 +30,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "dotenv": "^8.2.0",
-    "mocha": "^6.2.0"
+    "microbundle": "^0.11.0",
+    "mocha": "^6.2.0",
+    "rimraf": "^3.0.2"
   },
   "directories": {
     "test": "test"

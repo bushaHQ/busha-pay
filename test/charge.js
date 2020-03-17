@@ -1,5 +1,5 @@
 const expect = require("chai").expect;
-const pay = require("../index");
+const pay = require("../dist/busha-pay");
 const dotenv = require("dotenv");
 dotenv.config();
 

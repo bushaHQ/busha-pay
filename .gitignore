@@ -1,3 +1,4 @@
 node_modules/
 example.js
 .env
+dist/
