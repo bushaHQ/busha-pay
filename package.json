@@ -1,6 +1,6 @@
 {
   "name": "@busha/busha-pay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Busha Pay allows businesses collect cryptocurrencies such as Bitcoin, Ethereum etc. as payment from customers around the world.",
   "main": "dist/busha-pay.js",
   "source": "src/index.js",
